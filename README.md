@@ -14,7 +14,7 @@ Data Used:
 - Daily Protein Amount
 - Daily Fat Amount
 - Daily Water Intake
-- The Weather (temperature, condition)
+- The Weather (temperature)
 - Physical Activity
 - Daily Sleep Duration
 - Daily Sleep Quality
@@ -25,7 +25,7 @@ The way data will be collected for this project is daily manual entries for 20 d
   - Daily water intake will be obtained by using a tracker app on my phone
   - Daily sleep duration will be obtained by using my Apple Watch's sleep tracking function
   - Daily sleep quality will be obtained by personal input, (on a scale of 0-10)
-  - The weather will be obtained via a public source (temperature, condition)
+  - The weather will be obtained via a public source (AccuWeather). For each day the minimum and maximum         temperature is taken and a daily maean temperature value is obtained.
   - Daily physical activity will be a manual entry (yes,no)
   - Daily physical activity duration will be obtained by my Apple Watch Fitness app
 
