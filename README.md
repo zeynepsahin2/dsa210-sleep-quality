@@ -26,5 +26,49 @@ The way data will be collected for this project is daily manual entries for 20 d
   - Daily sleep duration will be obtained by using my Apple Watch's sleep tracking function
   - Daily sleep quality will be obtained by personal input, (on a scale of 0-10)
   - The weather will be obtained via a public source (temperature, condition)
-  - Daily Physical activity will be a manual entry (yes,no)
-  - Daily physical activity duration will be obtained by my Apple Watch Fitness app 
+  - Daily physical activity will be a manual entry (yes,no)
+  - Daily physical activity duration will be obtained by my Apple Watch Fitness app
+
+Exploratory Data Analysis (EDA) Plan:
+
+  - I will examine the distributions of all daily variables using histograms and boxplots.
+  - I will compute Pearson and Spearman correlations between macronutrients, water intake, weather variables,        physical activity and sleep quality.
+  -I will compare mean sleep quality across categorical groups such as caffeine vs no caffeine, exercise vs no       exercise and early vs late meal times.
+  -I will produce a correlation heatmap to identify key relationships between features.
+
+  Hypothesis Tests
+
+  -I will formally test the following hypotheses:
+  	1.	H1: Sleep quality is lower on days with caffeine intake.
+        Test: Two-sample t-test or Mann–Whitney test (will be chosen based on the data)
+  	2.	H2: Eating later in the evening reduces sleep duration.
+        Test: Two-sample t-test
+  	3.	H3: Higher sugar or carbohydrate intake is associated with lower sleep quality.
+        Test: Pearson/Spearman correlation and significance of regression slope
+  	4.	H4: Sleep quality is higher on days with physical activity.
+        Test: Two-sample t-test
+
+
+
+  Prediction Model
+
+  Target variable: Daily Sleep Quality (0–10)
+
+    Predictors:
+    Meal time
+    Carbohydrate, protein, fat intake
+    Water intake
+    Weather variables (temperature, condition)
+    Physical activity indicators
+    Sleep duration
+    
+    Models to be used:
+    Linear Regression to interpret coefficients
+    Decision Tree Regression to analyze feature importance
+    
+    Evaluation metrics:
+    MAE
+    RMSE
+    R²
+
+  The prediction phase will identify which factors have the strongest influence on sleep quality based on the       collected features.
