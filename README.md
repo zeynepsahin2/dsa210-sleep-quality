@@ -9,7 +9,7 @@ Also with the recent developments in nutrition science, people started to pay at
 
 Data Used:
 - Date
-- Meal Time
+- Last meal Time
 - Daily Carbohydrate Amount
 - Daily Protein Amount
 - Daily Fat Amount
@@ -33,7 +33,7 @@ Exploratory Data Analysis (EDA) Plan:
 
   - I will examine the distributions of all daily variables using histograms and boxplots.
   - I will compute Pearson and Spearman correlations between macronutrients, water intake, weather variables,        physical activity and sleep quality.
-  -I will compare mean sleep quality across categorical groups such as caffeine vs no caffeine, exercise vs no       exercise and early vs late meal times.
+  -I will compare mean sleep quality across categorical groups such as caffeine vs no caffeine, exercise vs no       exercise and early vs late last meal times.
   -I will produce a correlation heatmap to identify key relationships between features.
 
   Hypothesis Tests
@@ -55,7 +55,7 @@ Exploratory Data Analysis (EDA) Plan:
   Target variable: Daily Sleep Quality (0–10)
 
     Predictors:
-    Meal time
+    Last meal time
     Carbohydrate, protein, fat intake
     Water intake
     Weather variables (temperature, condition)
